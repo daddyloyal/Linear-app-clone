@@ -8,7 +8,7 @@ const LogoCloud = () => {
       className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}
     >
       {logoCloud.map((logo) => (
-        <div key={logo.id} className="grid grid-cols-4 gap-4">
+        <div key={logo.id} className="grid grid-cols-2 gap-4 mx-auto">
           <div>
             {logo.img}
           <img src={logo.img} alt="company" />
