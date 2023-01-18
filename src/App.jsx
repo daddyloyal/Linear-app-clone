@@ -1,16 +1,25 @@
-import styles from "./style"
+import styles from "./components/style";
+import Header from "./components/Header"
+import Hero from "./components/Hero"
 
 const App = () => {
   return (
     <main className="bg-primary w-full overflow-hidden">
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={ `${styles.boxWidth} text-white` }>
-          Navbar
-        </div>
-      </div>
+      {/* Navbar */}
+      <Header />
+      
+      {/* Hero Section */}
+      <Hero />
 
-      <div className={ `bg-primary ${styles.boxWidth} text-white`}>
-          Hero
+      {/* Other COmponentd */}
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+            Clients
+            Features
+            Method
+            Pricing
+            Footer
+          </div>
       </div>
     </main>
   )
