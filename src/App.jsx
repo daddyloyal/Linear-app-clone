@@ -9,16 +9,12 @@ const App = () => {
       <Header />
       
       {/* Hero Section */}
-      <Hero />
+      {/* <Hero /> */}
 
-      {/* Other COmponentd */}
+      {/* Other Components */}
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
-            Clients
-            Features
-            Method
-            Pricing
-            Footer
+            
           </div>
       </div>
     </main>
