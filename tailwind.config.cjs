@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         primary: "#000212",
         secondary: "#81808e",
+        button: "#5943cf",
         lightBlue: "#828fff",
         blueShade: "#5e6ad2",
         dimWhite: "rgba(255, 255, 255, 0.7)",
