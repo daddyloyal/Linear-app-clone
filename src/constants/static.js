@@ -21,7 +21,6 @@ export const navLinks = [
     id: "company",
     title: "Company",
   },
-  
 ];
 export const navButton = [
   {

@@ -4,7 +4,7 @@ import Hero from "./components/Hero"
 
 const App = () => {
   return (
-    <main className="bg-primary w-full overflow-hidden">
+    <main className="bg-primary w-full overflow-hidden min-h-screen">
       {/* Navbar */}
       <Header />
       
