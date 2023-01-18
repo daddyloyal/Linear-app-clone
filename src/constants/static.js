@@ -1,4 +1,15 @@
-// import { } from "../assets";
+import ramp  from "../assets/company1.svg";
+import loom  from "../assets/company2.svg";
+import vercel  from "../assets/company3.svg";
+import descript  from "../assets/company4.svg";
+import cashapp  from "../assets/company5.svg";
+import raycast  from "../assets/company6.svg";
+import mercury  from "../assets/company7.svg";
+import retool  from "../assets/company8.svg";
+import alan  from "../assets/company9.svg";
+import arc  from "../assets/company10.svg";
+import opensea from "../assets/company11.svg";
+import pitch from "../assets/pitch.svg";
 
 export const navLinks = [
   {
@@ -30,8 +41,72 @@ export const navButton = [
   {
     id: "signup",
     title: "Sign up",
-  }
-]
+  },
+];
+
+export const logoCloud = [
+  {
+    id: "ramp",
+    img: ramp,
+    title: "Ramp",
+  },
+  {
+    id: "loom",
+    img: loom,
+    title: "Loom",
+  },
+  {
+    id: "vercel",
+    img: vercel,
+    title: "Vercel",
+  },
+  {
+    id: "descript",
+    img: descript,
+    title: "Descript",
+  },
+  {
+    id: "cashapp",
+    img: cashapp,
+    title: "Cashapp",
+  },
+  {
+    id: "raycast",
+    img: raycast,
+    title: "Raycast",
+  },
+  {
+    id: "mercury",
+    img: mercury,
+    title: "Mercury",
+  },
+  {
+    id: "retool",
+    img: retool,
+    title: "Retool",
+  },
+  {
+    id: "alan",
+    img: alan,
+    title: "Alan",
+  },
+  {
+    id: "arc",
+    img: arc,
+    title: "Arc",
+  },
+  {
+    id: "opensea",
+    img: opensea,
+    title: "Opensea",
+  },
+  {
+    id: "pitch",
+    img: pitch,
+    title: "Pitch",
+  },
+
+];
 
 // export const features = [
 //   {

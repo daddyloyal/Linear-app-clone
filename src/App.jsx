@@ -2,6 +2,7 @@ import styles from "./components/style";
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Button from "./components/Button";
+import LogoCloud from "./components/LogoCloud";
 
 const App = () => {
   return (
@@ -13,11 +14,7 @@ const App = () => {
       <Hero />
 
       {/* Logo Cloud */}
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-          <div className={`${styles.boxWidth}`}>
-            
-          </div>
-      </div>
+      <LogoCloud />
     </main>
   )
 }

@@ -4,7 +4,6 @@ import { useState } from "react";
 import Menu from "../assets/menu.svg";
 import Close from "../assets/close.svg";
 import { navLinks } from "../constants/static";
-import { navButton } from "../constants/static";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
