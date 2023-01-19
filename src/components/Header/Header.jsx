@@ -28,7 +28,7 @@ const Header = () => {
         </div>
 
         <ul
-          className={`list-none sm:flex hidden justify-start items-center flex-1 mx-20`}
+          className={`list-none md:flex hidden justify-start items-center flex-1 mx-20`}
         >
           {navLinks.map((nav, index) => (
             <li
