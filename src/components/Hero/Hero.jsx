@@ -1,6 +1,6 @@
-import Button from "./Button";
-import styles from "./style";
-import heroImg from "../assets/hero@4x.png";
+import Button from "../Button/Button";
+import styles from "../style";
+import heroImg from "../../assets/hero@4x.png";
 
 const Hero = () => {
   return (
@@ -46,8 +46,8 @@ const Hero = () => {
             <Button title={"Get started"} />
           </button>
         </section>
-        <section id="hero-img" className="mx-auto max-w-screen-md">
-          <img src={heroImg} className="my-28" alt="hero-img" />
+        <section id="hero-img" className="mx-auto max-w-screen-lg">
+          <img src={heroImg} className="my-28 w-auto rounded-[15px] border-gray-600 border" alt="hero-img" />
         </section>
       </div>
     </section>

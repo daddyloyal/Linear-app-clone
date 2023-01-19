@@ -1,14 +1,13 @@
-import styles from "./style";
-import Button from "./Button";
+import styles from "../style";
 import { useState } from "react";
-import Menu from "../assets/menu.svg";
-import Close from "../assets/close.svg";
-import { navLinks } from "../constants/static";
+import Menu from "../../assets/menu.svg";
+import Close from "../../assets/close.svg";
+import { navLinks } from "../../constants/static";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <header className={`${styles.paddingX} ${styles.flexCenter} pb-3 `}>
+    <header className={`${styles.paddingX} ${styles.flexCenter} pb-3 sticky top-0 backdrop-blur-sm`}>
       <nav
         className={`${styles.boxWidth} py-4 w-full max-w-[90vw] md:max-w-7xl flex justify-between items-center navbar border-b border-b-[#1d1f32]`}
       >

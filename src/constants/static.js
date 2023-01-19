@@ -49,61 +49,73 @@ export const logoCloud = [
     id: "ramp",
     img: ramp,
     title: "Ramp",
+    display_small: "block",
   },
   {
     id: "loom",
     img: loom,
     title: "Loom",
+    display_small: "block",
   },
   {
     id: "vercel",
     img: vercel,
     title: "Vercel",
+    display_small: "block",
   },
   {
     id: "descript",
     img: descript,
     title: "Descript",
+    display_small: "block",
   },
   {
     id: "cashapp",
     img: cashapp,
     title: "Cashapp",
+    display_small: "block",
   },
   {
     id: "raycast",
     img: raycast,
     title: "Raycast",
+    display_small: "block",
   },
   {
     id: "mercury",
     img: mercury,
     title: "Mercury",
+    display_small: "hidden",
   },
   {
     id: "retool",
     img: retool,
     title: "Retool",
+    display_small: "hidden",
   },
   {
     id: "alan",
     img: alan,
     title: "Alan",
+    display_small: "hidden",
   },
   {
     id: "arc",
     img: arc,
     title: "Arc",
+    display_small: "hidden",
   },
   {
     id: "opensea",
     img: opensea,
     title: "Opensea",
+    display_small: "hidden",
   },
   {
     id: "pitch",
     img: pitch,
     title: "Pitch",
+    display_small: "hidden",
   },
 
 ];
