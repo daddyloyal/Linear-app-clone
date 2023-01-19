@@ -38,7 +38,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-6xl  lg:text-7xl text-transparent py-4 break-words max-w-2xl font-bold text-center bg-gradient-to-br from-white to-gray-700 bg-clip-text">
             Linear is a better way to build products
           </h1>
-          <p className="text-2xl py-2 text-center text-slate-400 break-words max-w-2xl mb-8">
+          <p className="text-xl md:text-2xl py-2 text-center text-slate-400 break-words max-w-2xl mb-8">
             Meet the new standard for modern software development. Streamline
             issues, sprints, and product roadmaps.
           </p>

@@ -10,6 +10,13 @@ import alan  from "../assets/company9.svg";
 import arc  from "../assets/company10.svg";
 import opensea from "../assets/company11.svg";
 import pitch from "../assets/pitch.svg";
+import file from "../assets/file.svg";
+import backlog from "../assets/backlog.svg";
+import workflow from "../assets/workflow.svg";
+import filters from "../assets/filter.svg";
+import discussion from "../assets/discussion.svg";
+import issues from "../assets/issue.svg"
+
 
 export const navLinks = [
   {
@@ -119,6 +126,45 @@ export const logoCloud = [
   },
 
 ];
+
+export const issueItem = [
+  {
+    id: "sub-issues",
+    icon: file,
+    title: "Sub-issues",
+    content: "Break larger tasks into smaller issues.",
+  },
+  {
+    id: "backlog",
+    icon: backlog,
+    title: "Automated backlog",
+    content: "Linear will auto-archive issues.",
+  },
+  {
+    id: "workflow",
+    icon: workflow,
+    title: "Workflows",
+    content: "Define unique issue states for each team.",
+  },
+  {
+    id: "filters",
+    icon: filters,
+    title: "Filters and custom views",
+    content: "See only what’s relevant for you.",
+  },
+  {
+    id: "discussion",
+    icon: discussion,
+    title: "Discussion",
+    content: "Collaborate on issues without losing context.",
+  },
+  {
+    id: "issue",
+    icon: issues,
+    title: "Issue templates",
+    content: "Guide your team to write effective issues."
+  }
+]
 
 // export const features = [
 //   {

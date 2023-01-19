@@ -5,14 +5,14 @@ const LogoCloud = () => {
   return (
     <section id="logo-cloud">
       <div className="logo-title mx-auto block text-white text-[26px] text-center">
-        <p className="py-[2px] px-4 text-slate-400">
+        <p className="py-[2px] px-4 text-slate-400 leading-tight">
           Powering the world’s best product teams.
         </p>
-        <p className="py-[2px] px-4 font-normal">
+        <p className="py-[2px] px-4 font-normal leading-tight">
           From next-gen startups to established enterprises.
         </p>
       </div>
-      <div className={`${styles.flexCenter} grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:mb-20 mb-6 w-[95vw] md:w-[90vw] lg:w-[80vw] mx-auto`}>
+      <div className={`${styles.flexCenter} grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 lg:gap-3 sm:mb-20 mb-6 w-[95vw] md:w-[90vw] lg:w-[80vw] mx-auto`}>
         {logoCloud.map((logo) => (
           <div
             key={logo.id}
