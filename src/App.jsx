@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import LogoCloud from "./components/LogoCloud/LogoCloud";
 import Features from "./components/Features/Features";
+import Tracking from "./components/Tracking/Tracking";
 
 const App = () => {
   return (
@@ -18,6 +19,8 @@ const App = () => {
 
       {/* Feature Section */}
       <Features />
+      {/* Tracking  */}
+      <Tracking />
     </main>
   );
 };
