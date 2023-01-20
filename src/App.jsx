@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import LogoCloud from "./components/LogoCloud/LogoCloud";
 import Features from "./components/Features/Features";
 import Tracking from "./components/Tracking/Tracking";
+import Momentum from "./components/Momentum/Momentum";
 
 const App = () => {
   return (
@@ -21,6 +22,8 @@ const App = () => {
       <Features />
       {/* Tracking  */}
       <Tracking />
+      {/* Momentum */}
+      <Momentum />
     </main>
   );
 };

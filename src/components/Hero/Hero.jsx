@@ -14,14 +14,14 @@ const Hero = () => {
         <button
           className={`flex flex-row items-center  mb-2 mx-auto bg-slate-800 text-white p-1 overflow-hidden font-bold text-sm rounded-full`}
         >
-          <p className="py-[2px] px-4">Linear 2022 Release - Built for scale</p>
+          <p className="py-[1px] px-4">Linear 2022 Release - Built for scale</p>
           <div className="bg-slate-700 rounded-full py-[6px] px-2">
             <svg
               fill="none"
               stroke="currentColor"
               strokeWidth={1.5}
               viewBox="0 0 24 24"
-              width={20}
+              width={15}
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
             >

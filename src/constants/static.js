@@ -15,7 +15,13 @@ import backlog from "../assets/backlog.svg";
 import workflow from "../assets/workflow.svg";
 import filters from "../assets/filter.svg";
 import discussion from "../assets/discussion.svg";
-import issues from "../assets/issue.svg"
+import issues from "../assets/issue.svg";
+import robot from "../assets/robot.svg";
+import clock from "../assets/clock.svg"
+import settings from "../assets/settings.svg";
+import scope from "../assets/scope.svg";
+import warning from "../assets/warning.svg";
+import prepare from "../assets/prepare.svg";
 
 
 export const navLinks = [
@@ -163,6 +169,44 @@ export const issueItem = [
     icon: issues,
     title: "Issue templates",
     content: "Guide your team to write effective issues."
+  }
+]
+export const momentum = [
+  {
+    id: "tracking",
+    icon: robot,
+    title: "Automatic tracking",
+    content: "Any started issues are added to the current cycle.",
+  },
+  {
+    id: "scheduled",
+    icon: clock,
+    title: "Scheduled",
+    content: "Unfinished work rolls over to the next cycle automatically.",
+  },
+  {
+    id: "configurable",
+    icon: settings,
+    title: "Fully configurable",
+    content: "Define start date, end date, duration, and more.",
+  },
+  {
+    id: "predict",
+    icon: warning,
+    title: "Predict delays",
+    content: "Get warnings for at-risk cycles.",
+  },
+  {
+    id: "scope",
+    icon: scope,
+    title: "Scope creep",
+    content: "Understand which issues are added mid-cycle.",
+  },
+  {
+    id: "preparation",
+    icon: prepare,
+    title: "Be prepared",
+    content: "Schedule work in advance with upcoming cycles."
   }
 ]
 
