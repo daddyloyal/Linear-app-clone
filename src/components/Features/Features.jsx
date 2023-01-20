@@ -3,7 +3,6 @@ import keyboard from "../../assets/keyboard.svg";
 import flash from "../../assets/flash.webp";
 import linear from "../../assets/linear.webp";
 import input from "../../assets/input.webp";
-import FlashIcon from "../FlashIcon";
 
 const Features = () => {
   return (

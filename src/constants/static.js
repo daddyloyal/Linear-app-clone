@@ -131,19 +131,19 @@ export const issueItem = [
   {
     id: "sub-issues",
     icon: file,
-    title: "Sub-issues",
+    title: "Parent and sub-issues.",
     content: "Break larger tasks into smaller issues.",
   },
   {
     id: "backlog",
     icon: backlog,
     title: "Automated backlog",
-    content: "Linear will auto-archive issues.",
+    content: "Linear will auto-close and auto-archive issues.",
   },
   {
     id: "workflow",
     icon: workflow,
-    title: "Workflows",
+    title: "Custom workflows",
     content: "Define unique issue states for each team.",
   },
   {
