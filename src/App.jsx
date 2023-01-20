@@ -5,6 +5,7 @@ import LogoCloud from "./components/LogoCloud/LogoCloud";
 import Features from "./components/Features/Features";
 import Tracking from "./components/Tracking/Tracking";
 import Momentum from "./components/Momentum/Momentum";
+import Roadmap from "./components/Roadmap/Roadmap";
 
 const App = () => {
   return (
@@ -24,6 +25,8 @@ const App = () => {
       <Tracking />
       {/* Momentum */}
       <Momentum />
+      {/* Roadmaps */}
+      <Roadmap />
     </main>
   );
 };

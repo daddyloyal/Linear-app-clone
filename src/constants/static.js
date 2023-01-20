@@ -22,7 +22,11 @@ import settings from "../assets/settings.svg";
 import scope from "../assets/scope.svg";
 import warning from "../assets/warning.svg";
 import prepare from "../assets/prepare.svg";
-
+import team from "../assets/team.svg";
+import document from "../assets/document.svg";
+import roadmaps from "../assets/roadmap.svg";
+import timeline from "../assets/timeline.svg";
+import notification from "../assets/notification.svg";
 
 export const navLinks = [
   {
@@ -210,6 +214,44 @@ export const momentum = [
   }
 ]
 
+export const roadmapping = [
+  {
+    id: "team",
+    icon: team,
+    title: "Multi-team projects",
+    content: "Collaborate across teams and departments.",
+  },
+  {
+    id: "document",
+    icon: document,
+    title: "Project documents",
+    content: "Write project briefs and specs directly in Linear.",
+  },
+  {
+    id: "roadmaps",
+    icon: roadmaps,
+    title: "Custom roadmaps",
+    content: "Organize projects across multiple roadmaps.",
+  },
+  {
+    id: "timeline",
+    icon: timeline,
+    title: "Timeline view",
+    content: "Visualize the product journey ahead.",
+  },
+  {
+    id: "insights",
+    icon: scope,
+    title: "Project insights",
+    content: "Track scope, velocity, and progress over time.",
+  },
+  {
+    id: "notification",
+    icon: notification,
+    title: "Personal notifications",
+    content: "Stay in the loop on project activity and updates."
+  }
+]
 // export const features = [
 //   {
 //     id: "feature-1",
