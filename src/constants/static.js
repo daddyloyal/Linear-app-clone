@@ -33,6 +33,8 @@ import sentry from "../assets/sentry.svg";
 import airbyte from "../assets/airbyte.svg";
 import front from "../assets/front.svg";
 import figma from "../assets/figma.svg";
+import twitter from "../assets/twitter.svg";
+import linkedin from "../assets/linkedin.svg";
 
 export const navLinks = [
   {
@@ -308,182 +310,125 @@ export const exponential = [
     content: "Embed design files in issues and documents."
   }
 ]
-// export const features = [
-//   {
-//     id: "feature-1",
-//     icon: star,
-//     title: "Rewards",
-//     content:
-//       "The best credit cards offer some tantalizing combinations of promotions and prizes",
-//   },
-//   {
-//     id: "feature-2",
-//     icon: shield,
-//     title: "100% Secured",
-//     content:
-//       "We take proactive steps make sure your information and transactions are secure.",
-//   },
-//   {
-//     id: "feature-3",
-//     icon: send,
-//     title: "Balance Transfer",
-//     content:
-//       "A balance transfer credit card can save you a lot of money in interest charges.",
-//   },
-// ];
 
-// export const feedback = [
-//   {
-//     id: "feedback-1",
-//     content:
-//       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-//     name: "Herman Jensen",
-//     title: "Founder & Leader",
-//     img: people01,
-//   },
-//   {
-//     id: "feedback-2",
-//     content:
-//       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-//     name: "Steve Mark",
-//     title: "Founder & Leader",
-//     img: people02,
-//   },
-//   {
-//     id: "feedback-3",
-//     content:
-//       "It is usually people in the money business, finance, and international trade that are really rich.",
-//     name: "Kenn Gallagher",
-//     title: "Founder & Leader",
-//     img: people03,
-//   },
-// ];
 
-// export const stats = [
-//   {
-//     id: "stats-1",
-//     title: "User Active",
-//     value: "3800+",
-//   },
-//   {
-//     id: "stats-2",
-//     title: "Trusted by Company",
-//     value: "230+",
-//   },
-//   {
-//     id: "stats-3",
-//     title: "Transaction",
-//     value: "$230M+",
-//   },
-// ];
+export const footerLinks = [
+  {
+    title: "Products",
+    links: [
+      {
+        name: "Features",
+        link: "",
+      },
+      {
+        name: "Integrations",
+        link: "",
+      },
+      {
+        name: "Pricing",
+        link: "",
+      },
+      {
+        name: "Explore",
+        link: "",
+      },
+      {
+        name: "Terms & Services",
+        link: "",
+      },
+    ],
+  },
+  {
+    title: "Company",
+    links: [
+      {
+        name: "About us",
+        link: "",
+      },
+      {
+        name: "Blog",
+        link: "",
+      },
+      {
+        name: "Careers",
+        link: "",
+      },
+      {
+        name: "Customers",
+        link: "",
+      },
+      {
+        name: "Brand",
+        link: "",
+      },
+    ],
+  },
+  {
+    title: "Resources",
+    links: [
+      {
+        name: "Community",
+        link: "",
+      },
+      {
+        name: "Contact",
+        link: "",
+      },
+      {
+        name: "DPA",
+        link: "",
+      },
+      {
+        name: "Terms of service",
+        link: "",
+      },
+      {
+        name: "Report a vulnerability",
+        link: "",
+      },
+    ],
+  },
+  {
+    title: "Developers",
+    links: [
+      {
+        name: "API",
+        link: "",
+      },
+      {
+        name: "Status",
+        link: "",
+      },
+      {
+        name: "github",
+        link: "https://github.com/daddyloyal",
+      },
+      {
+        name: "Terms of service",
+        link: "",
+      },
+      {
+        name: "Report a vulnerability",
+        link: "",
+      },
+    ],
+  },
+];
 
-// // export const footerLinks = [
-// //   {
-// //     title: "Useful Links",
-// //     links: [
-// //       {
-// //         name: "Content",
-// //         link: "https://www.hoobank.com/content/",
-// //       },
-// //       {
-// //         name: "How it Works",
-// //         link: "https://www.hoobank.com/how-it-works/",
-// //       },
-// //       {
-// //         name: "Create",
-// //         link: "https://www.hoobank.com/create/",
-// //       },
-// //       {
-// //         name: "Explore",
-// //         link: "https://www.hoobank.com/explore/",
-// //       },
-// //       {
-// //         name: "Terms & Services",
-// //         link: "https://www.hoobank.com/terms-and-services/",
-// //       },
-// //     ],
-// //   },
-// //   {
-// //     title: "Community",
-// //     links: [
-// //       {
-// //         name: "Help Center",
-// //         link: "https://www.hoobank.com/help-center/",
-// //       },
-// //       {
-// //         name: "Partners",
-// //         link: "https://www.hoobank.com/partners/",
-// //       },
-// //       {
-// //         name: "Suggestions",
-// //         link: "https://www.hoobank.com/suggestions/",
-// //       },
-// //       {
-// //         name: "Blog",
-// //         link: "https://www.hoobank.com/blog/",
-// //       },
-// //       {
-// //         name: "Newsletters",
-// //         link: "https://www.hoobank.com/newsletters/",
-// //       },
-// //     ],
-// //   },
-// //   {
-// //     title: "Partner",
-// //     links: [
-// //       {
-// //         name: "Our Partner",
-// //         link: "https://www.hoobank.com/our-partner/",
-// //       },
-// //       {
-// //         name: "Become a Partner",
-// //         link: "https://www.hoobank.com/become-a-partner/",
-// //       },
-// //     ],
-// //   },
-// // ];
-
-// export const socialMedia = [
-//   {
-//     id: "social-media-1",
-//     icon: github,
-//     link: "https://www.github.com/daddyloyal",
-//   },
-//   {
-//     id: "social-media-2",
-//     icon: twitter,
-//     link: "https://www.twitter.com/",
-//   },
-//   {
-//     id: "social-media-3",
-//     icon: linkedin,
-//     link: "https://www.linkedin.com/",
-//   },
-// ];
-
-// export const clients = [
-//   {
-//     id: "client-1",
-//     logo: ramp,
-//   },
-//   {
-//     id: "client-2",
-//     logo: vercel,
-//   },
-//   {
-//     id: "client-3",
-//     logo: cashapp,
-//   },
-//   {
-//     id: "client-4",
-//     logo: raycast,
-//   },
-//   {
-//     id: "client-5",
-//     logo: mercury,
-//   },
-//   {
-//     id: "client-6",
-//     logo: retool
-//   }
-// ];
+export const socialMedia = [
+  {
+    id: "social-media-1",
+    icon: github,
+    link: "https://www.github.com/daddyloyal",
+  },
+  {
+    id: "social-media-2",
+    icon: twitter,
+    link: "https://twitter.com/lifeofemmany6",
+  },
+  {
+    id: "social-media-3",
+    icon: linkedin,
+    link: "https://www.linkedin.com/",
+  },
+];

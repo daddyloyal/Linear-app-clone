@@ -7,6 +7,7 @@ import Tracking from "./components/Tracking/Tracking";
 import Momentum from "./components/Momentum/Momentum";
 import Roadmap from "./components/Roadmap/Roadmap";
 import Workflow from "./components/Workflow/Workflow";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -30,6 +31,9 @@ const App = () => {
       <Roadmap />
       {/* Workflow */}
       <Workflow />
+
+      {/* Footer */}
+      <Footer />
     </main>
   );
 };
