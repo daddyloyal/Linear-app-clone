@@ -9,14 +9,14 @@ const Header = () => {
   return (
     <header className={`${styles.paddingX} ${styles.flexCenter} pb-3 sticky top-0 backdrop-blur-sm`}>
       <nav
-        className={`${styles.boxWidth} py-4 w-full max-w-[90vw] md:max-w-7xl flex justify-between items-center navbar border-b border-b-[#1d1f32]`}
+        className={`${styles.boxWidth} py-2 w-[100vw] lg:w-[80vw] max-w-[90vw] md:max-w-7xl flex justify-between items-center navbar border-b border-b-[#1d1f32]`}
       >
         <div className="text-white text-xl gap-2 brand flex items-center mx-10">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
-            width="25"
-            height="25"
+            width="20"
+            height="20"
             viewBox="0 0 100 100"
           >
             <path

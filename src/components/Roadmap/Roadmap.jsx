@@ -30,12 +30,12 @@ const Roadmap = () => {
         </h1>
       </div>
 
-      {/* Issues Section */}
+      {/* Roadmap Section */}
       <section
-        id="issues-box"
+        id="roadmap-box"
         className=" mx-auto border-t border-t-[#1d1f32] py-10 px-10 "
       >
-        {/* Issue Grid */}
+        {/* Roadmap Grid */}
         <div
           className={`${styles.flexCenter} grid grid-cols-2 lg:grid-cols-3 gap-4 sm:mb-20 mb-6 w-fit h-fit mx-auto py-4`}
         >

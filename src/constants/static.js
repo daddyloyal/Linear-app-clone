@@ -27,6 +27,12 @@ import document from "../assets/document.svg";
 import roadmaps from "../assets/roadmap.svg";
 import timeline from "../assets/timeline.svg";
 import notification from "../assets/notification.svg";
+import github from "../assets/github.svg";
+import slack from "../assets/slack.svg";
+import sentry from "../assets/sentry.svg";
+import airbyte from "../assets/airbyte.svg";
+import front from "../assets/front.svg";
+import figma from "../assets/figma.svg";
 
 export const navLinks = [
   {
@@ -40,6 +46,18 @@ export const navLinks = [
   {
     id: "method",
     title: "Method",
+  },
+  {
+    id: "customer",
+    title: "Customer",
+  },
+  {
+    id: "changelog",
+    title: "Changelog",
+  },
+  {
+    id: "integration",
+    title: "Integration",
   },
   {
     id: "pricing",
@@ -250,6 +268,44 @@ export const roadmapping = [
     icon: notification,
     title: "Personal notifications",
     content: "Stay in the loop on project activity and updates."
+  }
+]
+export const exponential = [
+  {
+    id: "git",
+    icon: github,
+    title: "GitHub and GitLab",
+    content: "Sync PRs with issues that close automatically.",
+  },
+  {
+    id: "slack",
+    icon: slack,
+    title: "Slack and Discord",
+    content: "Create issues and set up alerts.",
+  },
+  {
+    id: "sentry",
+    icon: sentry,
+    title: "Sentry",
+    content: "Automatically create issues from code exceptions.",
+  },
+  {
+    id: "airbyte",
+    icon: airbyte,
+    title: "Airbyte",
+    content: "Sync workspace data to external warehouses and databases.",
+  },
+  {
+    id: "front",
+    icon: front,
+    title: "Front, Intercom, Zendesk",
+    content: "Keep a tight loop with your users.",
+  },
+  {
+    id: "figma",
+    icon: figma,
+    title: "Figma",
+    content: "Embed design files in issues and documents."
   }
 ]
 // export const features = [
