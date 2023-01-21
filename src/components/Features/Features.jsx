@@ -15,7 +15,7 @@ const Features = () => {
         <h1 className="text-3xl md:text-5xl  lg:text-6xl py-4 break-words max-w-md font-bold text-center text-white mx-auto">
           Unlike any tool you’ve used before
         </h1>
-        <p className="text-[26px] sm:leading-tight leading-tight py-2 text-center text-slate-200 break-words max-w-2xl mb-8">
+        <p className="text-[20px] lg:text-[26px] sm:leading-tight leading-tight py-2 text-center text-slate-200 break-words max-w-2xl mb-8">
           Designed to the last pixel and engineered with unforgiving precision,
           Linear combines UI elegance with world-class performance.
         </p>
