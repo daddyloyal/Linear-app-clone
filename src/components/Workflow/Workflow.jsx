@@ -16,7 +16,7 @@ const Workflow = () => {
       <div
         className={`flex-1 ${styles.flexStart} flex-col w-full min-h-[300px] xl:px-0 sm:px-16 px-6 h-14 shadow-lg shadow-primary rounded`}
       >
-        <h1 className="text-transparent text-4xl md:text-6xl lg:text-8xl font-bold max-w-screen-sm mx-auto text-center break-words bg-gradient-to-br from-white to-gray-700 bg-clip-text">
+        <h1 className="text-transparent text-4xl md:text-6xl lg:text-8xl font-bold max-w-screen-sm mx-auto text-center break-words bg-gradient-to-br from-white to-gray-300 bg-clip-text">
             Linear workflows. Exponential results.
         </h1>
       </div>
