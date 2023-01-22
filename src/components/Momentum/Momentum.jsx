@@ -7,9 +7,9 @@ const Momentum = () => {
     id="momentum">
       {/* Title */}
       <div
-        className={`flex-1 ${styles.flexStart} flex-col w-full min-h-[300px] xl:px-0 sm:px-16 px-6 h-14 bg-gradient-to-b from-primary  via-slate-900 to-primary shadow-lg shadow-primary rounded`}
+        className={`flex-1 ${styles.flexStart} flex-col w-full min-h-[300px] xl:px-0 sm:px-16 px-6 h-14 shadow-lg shadow-primary rounded`}
       >
-        <h1 className="text-transparent text-4xl md:text-6xl lg:text-8xl font-bold max-w-screen-sm mx-auto text-center break-words bg-gradient-to-br from-white to-gray-700 bg-clip-text">
+        <h1 className="text-transparent text-4xl md:text-6xl lg:text-8xl font-bold max-w-screen-sm mx-auto text-center break-words bg-gradient-to-br from-white to-gray-300 bg-clip-text">
             Build momentum with Cycles
         </h1>
       </div>
@@ -20,7 +20,7 @@ const Momentum = () => {
           className="w-[850px] mx-auto rounded-[15px] border-slate-500 border"
           alt="issues"
         />
-        <h1 className="mx-auto text-white lg:text-4xl md:text-3xl text-xl leading-snug break-words max-w-screen-sm text-center my-10 font-bold">
+        <h1 className="mx-auto text-white lg:text-4xl md:text-3xl text-xl leading-snug break-words max-w-screen-sm text-center my-16 font-bold">
             Cycles focus your team on what work should happen next. A healthy routine to maintain velocity and make meaningful progress.
         </h1>
       </div>

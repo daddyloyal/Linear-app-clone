@@ -329,11 +329,19 @@ export const footerLinks = [
         link: "",
       },
       {
-        name: "Explore",
+        name: "Changelog",
         link: "",
       },
       {
-        name: "Terms & Services",
+        name: "Docs",
+        link: "",
+      },
+      {
+        name: "Linear Method",
+        link: "",
+      },
+      {
+        name: "Download",
         link: "",
       },
     ],
@@ -400,16 +408,8 @@ export const footerLinks = [
         link: "",
       },
       {
-        name: "github",
+        name: "GitHub",
         link: "https://github.com/daddyloyal",
-      },
-      {
-        name: "Terms of service",
-        link: "",
-      },
-      {
-        name: "Report a vulnerability",
-        link: "",
       },
     ],
   },

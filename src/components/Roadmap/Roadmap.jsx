@@ -12,9 +12,9 @@ const Roadmap = () => {
     >
       {/* Title */}
       <div
-        className={`flex-1 ${styles.flexStart} flex-col w-full min-h-[300px] xl:px-0 sm:px-16 px-6 h-14 bg-gradient-to-b from-primary  via-teal-900 to-primary shadow-lg shadow-primary rounded`}
+        className={`flex-1 ${styles.flexStart} flex-col w-full min-h-[300px] xl:px-0 sm:px-16 px-6 h-14 shadow-lg shadow-primary rounded`}
       >
-        <h1 className="text-transparent text-4xl md:text-6xl lg:text-8xl font-bold max-w-screen-sm mx-auto text-center break-words bg-gradient-to-br from-white to-gray-700 bg-clip-text">
+        <h1 className="text-transparent text-4xl md:text-6xl lg:text-8xl font-bold max-w-screen-sm mx-auto text-center break-words bg-gradient-to-br from-white to-gray-300 bg-clip-text">
             Set direction with Roadmaps
         </h1>
       </div>
@@ -25,7 +25,7 @@ const Roadmap = () => {
           className="w-[790px] mx-auto rounded-[15px] border-slate-500 border"
           alt="issues"
         />
-        <h1 className="mx-auto text-white lg:text-4xl md:text-3xl text-xl leading-snug break-words max-w-screen-sm text-center my-10 font-bold">
+        <h1 className="mx-auto text-white lg:text-4xl md:text-3xl text-xl leading-snug break-words max-w-screen-sm text-center my-16 font-bold">
             Plan visually, collaborate in cross-team projects, and make better decisions with progress insights and project updates.
         </h1>
       </div>
@@ -66,7 +66,7 @@ const Roadmap = () => {
         {/* Board */}
         <div className="board-list lg:w-2/3 sm:w-3/4 mx-auto my-3">
         <div
-            className={`h-3/4 bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[20px] px-10 py-10`}
+            className={`h-[91.5%] bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[20px] px-10 py-10`}
           >
             <div className="flex flex-col text-start">
               <h2 className="text-white font-bold relative text-start text-3xl w-fit">
@@ -85,7 +85,7 @@ const Roadmap = () => {
         {/* Todo List */}
         <div className="board-list lg:w-2/3 sm:w-3/4 mx-auto my-3">
           <div
-              className={`h-3/4 bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[20px] px-10 py-10`}
+              className={`bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[20px] px-10 py-10`}
             >
               <div className="flex flex-col text-start">
                 <h2 className="text-white font-bold relative text-start text-3xl w-fit">
