@@ -3,11 +3,12 @@ import { footerLinks, socialMedia } from "../../constants/static";
 
 const Footer = () => {
   return (
-    <section className={`${styles.flexCenter} ${styles.paddingY} ${styles.paddingX} flex-col border-t-[1px] border-t-[#1d1f32] mx-auto`}>
-    <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-3/4`}>
-        <div className="flex-[1] flex flex-col justify-start mr-10 text-white">
-        <div className="linear-logo flex gap-2">
-        <svg
+    <section
+      className={`${styles.flexCenter} ${styles.paddingY} ${styles.paddingX} flex-col border-t-[1px] border-t-[#1d1f32] mx-auto`}
+    >
+        <div className="w-3/4 py-4 md:mb-6 max-w-5xl mx-auto text-white">
+          <div className="linear-logo flex gap-2">
+            <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
               width="20"
@@ -20,50 +21,55 @@ const Footer = () => {
               />
             </svg>
             Linear - Designed Worldwide
+          </div>
+        </div>
+      <div
+        className={`${styles.flexStart} flex md:flex-row flex-col mb-8 w-3/4`}
+      >
+
+        <div className=" w-full grid grid-cols-2 md:grid-cols-4 justify-between gap-4 md:mt-0 mt-10">
+          {footerLinks.map((footerlink) => (
+            <div
+              key={footerlink.title}
+              className={`flex flex-col ss:my-0 my-1 min-w-[150px]`}
+            >
+              <h4 className="font-medium text-[18px] leading-[27px] text-white">
+                {footerlink.title}
+              </h4>
+              <ul className="list-none mt-4">
+                {footerlink.links.map((link, index) => (
+                  <li
+                    key={link.name}
+                    className={`font-normal text-[16px] leading-[24px] text-gray-400 hover:text-white cursor-pointer ${
+                      index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
+                    }`}
+                  >
+                    {link.name}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </div>
 
-      <div className="flex-[1.5] w-full flex flex-row justify-between gap-3 md:mt-0 mt-10">
-        {footerLinks.map((footerlink) => (
-          <div key={footerlink.title} className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
-            <h4 className="font-medium text-[18px] leading-[27px] text-white">
-              {footerlink.title}
-            </h4>
-            <ul className="list-none mt-4">
-              {footerlink.links.map((link, index) => (
-                <li
-                  key={link.name}
-                  className={`font-normal text-[16px] leading-[24px] text-gray-400 hover:text-white cursor-pointer ${
-                    index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
-                  }`}
-                >
-                  {link.name}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+      <div className="w-3/4 flex justify-between items-center md:flex-row flex-col">
+        <div className="flex flex-row md:mt-0 mt-6">
+          {socialMedia.map((social, index) => (
+            <img
+              key={social.id}
+              src={social.icon}
+              alt={social.id}
+              className={`w-[18px] h-[18px] object-contain cursor-pointer ${
+                index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
+              }`}
+              onClick={() => window.open(social.link)}
+            />
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
+  );
+};
 
-    <div className="w-3/4 flex justify-between items-center md:flex-row flex-col">
-    <div className="flex flex-row md:mt-0 mt-6">
-        {socialMedia.map((social, index) => (
-          <img
-            key={social.id}
-            src={social.icon}
-            alt={social.id}
-            className={`w-[18px] h-[18px] object-contain cursor-pointer ${
-              index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-            }`}
-            onClick={() => window.open(social.link)}
-          />
-        ))}
-      </div>
-    
-</div>
-  </section>
-  )
-}
-
-export default Footer
+export default Footer;

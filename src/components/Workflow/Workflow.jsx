@@ -23,17 +23,11 @@ const Workflow = () => {
 
       <div className="mx-auto">
         <div className="images w-[200px] p-8 border border-slate-500 rounded-full bg-primary mx-auto gap-3">
-            {/* <img src={figma} alt="" className="w-[20px]" />
-            <img src={gitlab} alt="" className="w-[1000px]" />
-            <img src={front} alt="" className="" /> */}
             <img
             src={plus}
             className="w-[200px] mx-auto rounded-full "
             alt="issues"
             />
-            {/* <img src={front} alt="" className="" />
-            <img src={github} alt="" className="" />
-            <img src={figma} alt="" className="w-[20px]" /> */}
         </div>
         <h1 className="mx-auto text-white lg:text-4xl md:text-3xl text-xl leading-snug break-words max-w-screen-sm text-center my-10 font-bold">
             From customer support integrations to powerful Git automations, Linear streamlines the entire product development process.
@@ -69,18 +63,18 @@ const Workflow = () => {
       >
         {/* Workflow Grid */}
         <div
-          className={`${styles.flexCenter} grid grid-cols-2 lg:grid-cols-3 gap-4 sm:mb-20 mb-20 w-fit h-fit mx-auto py-4`}
+          className={`${styles.flexCenter} grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:mb-20 mb-20 w-fit h-fit mx-auto py-4`}
         >
           {exponential.map((item) => (
             <div key={item.id} className={"mx-auto lg:block"}>
               <div className="mx-auto">
                 <div className="issue-diplay flex py-4 lg:max-w-[300px] max-w-screen-sm px-2">
+                  <p className=" text-white text-start break-words text-lg font-semibold">
                   <img
                     src={item.icon}
                     alt={item.title}
                     className="mr-2 inline-block align-top h-4 mt-1"
                   />
-                  <p className=" text-white text-start break-words text-lg font-semibold">
                     {item.title}.{" "}
                     <span className="text-md font-normal text-slate-300">
                       {" "}
@@ -101,7 +95,7 @@ const Workflow = () => {
         {/* Advert Title */}
         <section id="hero-text" className="mx-auto max-w-fit text-center mt-40">
           <img src={appIcon} alt="App Icon" className="w-32 mx-auto" />
-          <h1 className="text-5xl md:text-6xl lg:text-7xl text-transparent py-4 break-words max-w-2xl font-bold text-center bg-gradient-to-br from-white to-gray-300 bg-clip-text">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl text-transparent py-4 break-words max-w-2xl font-bold text-center bg-gradient-to-br from-white to-gray-300 bg-clip-text">
             Built for the future. Available today.
           </h1>
           

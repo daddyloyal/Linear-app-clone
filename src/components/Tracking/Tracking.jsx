@@ -44,11 +44,6 @@ const Tracking = () => {
             <div key={item.id} className={"mx-auto lg:block"}>
               <div className="mx-auto">
                 <div className="issue-diplay flex py-4 lg:max-w-[300px] max-w-screen-sm px-2">
-                  {/* <img
-                    src={item.icon}
-                    alt={item.title}
-                    className="mr-2 inline-block align-top h-7 mt-1"
-                  /> */}
                   <p className=" text-white text-start break-words text-lg font-semibold">
                   <img
                     src={item.icon}

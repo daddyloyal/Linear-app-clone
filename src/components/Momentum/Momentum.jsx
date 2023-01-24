@@ -31,18 +31,19 @@ const Momentum = () => {
       >
         {/* Issue Grid */}
         <div
-          className={`${styles.flexCenter} grid grid-cols-2 lg:grid-cols-3 gap-4 sm:mb-20 mb-6 w-fit h-fit mx-auto py-4`}
+          className={`${styles.flexCenter} grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:mb-20 mb-6 w-fit h-fit mx-auto py-4`}
         >
           {momentum.map((item) => (
             <div key={item.id} className={"mx-auto lg:block"}>
               <div className="mx-auto">
                 <div className="issue-diplay flex py-4 lg:max-w-[300px] max-w-screen-sm px-2">
+                  
+                  <p className=" text-white text-start break-words text-lg font-semibold">
                   <img
                     src={item.icon}
                     alt={item.title}
-                    className="mr-2 inline-block align-top h-4 mt-1"
+                    className="mr-1 inline-block align-top h-4 mt-1"
                   />
-                  <p className=" text-white text-start break-words text-lg font-semibold">
                     {item.title}.{" "}
                     <span className="text-md font-normal text-slate-300">
                       {" "}
