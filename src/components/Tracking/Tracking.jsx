@@ -22,7 +22,7 @@ const Tracking = () => {
       <div className="mx-auto">
         <img
           src={issues}
-          className="w-[790px] mx-auto rounded-[15px] border-slate-500 border"
+          className="w-[790px] mx-auto rounded-[15px] border-slate-800 border"
           alt="issues"
         />
         <h1 className="mx-auto text-white lg:text-4xl md:text-3xl text-xl leading-snug break-words max-w-screen-sm text-center my-16 font-bold">
@@ -38,19 +38,23 @@ const Tracking = () => {
       >
         {/* Issue Grid */}
         <div
-          className={`${styles.flexCenter} grid grid-cols-2 lg:grid-cols-3 gap-4 sm:mb-20 mb-6 w-fit h-fit mx-auto py-4`}
+          className={`${styles.flexCenter} grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:mb-20 mb-6 w-fit h-fit mx-auto py-4`}
         >
           {issueItem.map((item) => (
             <div key={item.id} className={"mx-auto lg:block"}>
               <div className="mx-auto">
                 <div className="issue-diplay flex py-4 lg:max-w-[300px] max-w-screen-sm px-2">
+                  {/* <img
+                    src={item.icon}
+                    alt={item.title}
+                    className="mr-2 inline-block align-top h-7 mt-1"
+                  /> */}
+                  <p className=" text-white text-start break-words text-lg font-semibold">
                   <img
                     src={item.icon}
                     alt={item.title}
-                    className="mr-2 inline-block align-top h-4 mt-1"
-                  />
-                  <p className=" text-white text-start break-words text-lg font-semibold">
-                    {item.title}.{" "}
+                    className="mr-1 inline-block align-top h-4 mt-1"
+                  /> {item.title}.{" "}
                     <span className="text-md font-normal text-slate-300">
                       {" "}
                       {item.content}.

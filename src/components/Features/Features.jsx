@@ -26,7 +26,7 @@ const Features = () => {
         <div className="feature1 grid grid-cols-1 md:grid-cols-3 gap-[1rem] rounded-[14px] p-6 my-2">
           {/* Keyboard Contain*/}
           <div
-            className={`h-full md:col-span-2 bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[20px] px-6 py-6`}
+            className={`h-full md:col-span-2 bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[48px] px-6 py-6`}
           >
             <div className="relative max-w-[90%] mx-auto">
               <div className="absolute inset-0 bg-gradient-to-b from-primary to-transparent"></div>
@@ -43,7 +43,7 @@ const Features = () => {
 
           {/* Flash Speed Contain */}
           <div
-            className={`flex flex-col bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[20px] px-6 py-4`}
+            className={`flex flex-col bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[48px] px-6 py-4`}
           >
             <img src={flash} alt="zap" className="w-[250px] mx-auto" />
             <h2 className="text-white font-bold relative text-center text-3xl">
@@ -59,7 +59,7 @@ const Features = () => {
         <div className="feature2 grid grid-cols-1 md:grid-cols-3 gap-[1rem] rounded-[14px] p-6 mt-2">
         {/* Linear Contain */}
         <div
-            className={`flex flex-col bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[20px] px-6 py-4`}
+            className={`flex flex-col bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[48px] px-6 py-4`}
           >
             <img src={linear} alt="linear" className="w-[350px] mx-auto" />
             <h2 className="text-white relative font-bold text-center text-3xl mb-2">
@@ -71,7 +71,7 @@ const Features = () => {
           </div>
           {/* Input Contain */}
           <div
-            className={`h-full md:col-span-2 bg-gradient-to-br from-primary to-slate-900 border-slate-900 border rounded-[20px] px-6 py-4`}
+            className={`h-full md:col-span-2 bg-gradient-to-br from-primary to-slate-900 border-slate-900 border rounded-[48px] px-6 py-4`}
           >
             <h2 className="text-white font-bold relative text-center text-3xl mt-2">
               Meet your command line

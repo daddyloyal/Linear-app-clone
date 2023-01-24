@@ -22,7 +22,7 @@ const Roadmap = () => {
       <div className="mx-auto">
         <img
           src={roadmap}
-          className="w-[790px] mx-auto rounded-[15px] border-slate-500 border"
+          className="w-[790px] mx-auto rounded-[15px] border-slate-800 border"
           alt="issues"
         />
         <h1 className="mx-auto text-white lg:text-4xl md:text-3xl text-xl leading-snug break-words max-w-screen-sm text-center my-16 font-bold">

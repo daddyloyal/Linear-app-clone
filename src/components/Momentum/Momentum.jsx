@@ -17,7 +17,7 @@ const Momentum = () => {
       <div className="mx-auto">
         <img
           src={cycles}
-          className="w-[850px] mx-auto rounded-[15px] border-slate-500 border"
+          className="w-[850px] mx-auto rounded-[15px] border-gray-800 border"
           alt="issues"
         />
         <h1 className="mx-auto text-white lg:text-4xl md:text-3xl text-xl leading-snug break-words max-w-screen-sm text-center my-16 font-bold">

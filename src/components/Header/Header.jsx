@@ -7,7 +7,7 @@ import { navLinks } from "../../constants/static";
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <header className={`${styles.paddingX} ${styles.flexCenter} pb-3 sticky top-0 backdrop-blur-sm`}>
+    <header className={`${styles.paddingX} ${styles.flexCenter} pb-3 z-40 sticky top-0 backdrop-blur-sm`}>
       <nav
         className={`${styles.boxWidth} py-2 w-[100vw] lg:w-[80vw] max-w-[90vw] md:max-w-7xl flex justify-between items-center navbar border-b border-b-[#1d1f32]`}
       >

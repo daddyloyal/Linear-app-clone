@@ -46,8 +46,8 @@ const Hero = () => {
             <Button title={"Get started"} />
           </button>
         </section>
-        <section id="hero-img" className="mx-auto max-w-screen-lg mt-20">
-          <img src={heroImg} className="my-28 w-auto rounded-[15px] border-gray-600 border" alt="hero-img" />
+        <section id="hero-img" className="mx-auto max-w-screen-lg mt-0">
+          <img src={heroImg} className="my-28 w-auto rounded-[15px] border-slate-800 border" alt="hero-img" />
         </section>
       </div>
     </section>
