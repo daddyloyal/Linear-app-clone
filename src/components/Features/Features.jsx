@@ -21,53 +21,76 @@ const Features = () => {
         </p>
       </div>
       {/* Feature Content */}
-      <div className="feature-content flex flex-col max-w-screen-lg">
-        {/* Content 1 */}
-        <div className="feature1 grid grid-cols-1 md:grid-cols-3 gap-[1rem] rounded-[14px] p-6 my-2">
+
+        <div className="feature1 grid grid-cols-1 max-h-[1000px] h-fit max-w-6xl md:grid-cols-3 md:grid-rows-2 gap-5 rounded-[14px] p-6 my-2">
+
           {/* Keyboard Contain*/}
           <div
-            className={`h-full md:col-span-2 bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[48px] px-6 py-6`}
+            className={`h-full md:col-span-2 flex flex-col items-center justify-center gap-6  w-full  bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[48px] px-6`}
           >
-            <div className="relative max-w-[90%] mx-auto">
-              <div className="absolute inset-0 bg-gradient-to-b from-primary to-transparent"></div>
-              <img src={keyboard} alt="keyboard" className="mb-20" />
+
+                {/* Image with fade */}
+                <div className="relative w-full">
+                  <div className="absolute inset-0 bg-gradient-to-b from-primary to-transparent" />
+                  <div className="w-full">
+                  <img src={keyboard} alt="keyboard" className="w-full h-full" />
+                  </div>
+                </div>
+
+
+              {/* Where marquee would go */}
+              <div className="bg-slate-700 rounded-full w-full h-5">
+
+              </div>
+            
+
+            {/* Text contained in the same div */}
+            <div className=" flex flex-col ">
+              <h2 className="text-white font-bold relative text-center text-3xl">
+                Built for your keyboard
+              </h2>
+
+              <p className="text-[20px] leading-tight py-2 text-center text-slate-400 break-words max-w-sm mx-auto">
+                Fly through your tasks with rapid-fire keyboard shortcuts for
+                everything. Literally everything.
+              </p>
             </div>
-            <h2 className="text-white font-bold relative text-center text-3xl">
-              Built for your keyboard
-            </h2>
-            <p className="text-[20px] leading-tight py-2 text-center text-slate-400 break-words max-w-sm mx-auto mb-8">
-              Fly through your tasks with rapid-fire keyboard shortcuts for
-              everything. Literally everything.
-            </p>
+
           </div>
+
+
 
           {/* Flash Speed Contain */}
           <div
-            className={`flex flex-col bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[48px] px-6 py-4`}
+            className={` bg-gradient-to-b flex flex-col items-center justify-center gap-6 from-primary to-slate-900 border-slate-900 border rounded-[48px] px-6 py-4`}
           >
             <img src={flash} alt="zap" className="w-[250px] mx-auto" />
+
+            <div className="">
+
             <h2 className="text-white font-bold relative text-center text-3xl">
               Breathtakingly fast
             </h2>
             <p className="text-[20px] leading-tight text-center text-slate-400 break-words max-w-sm mx-auto mb-8">
               Built for speed with 50ms interactions and real-time sync.
             </p>
+            </div>
           </div>
-        </div>
 
-        {/* Content 2 */}
-        <div className="feature2 grid grid-cols-1 md:grid-cols-3 gap-[1rem] rounded-[14px] p-6 mt-2">
         {/* Linear Contain */}
         <div
-            className={`flex flex-col bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[48px] px-6 py-4`}
+            className={`flex flex-col bg-gradient-to-b from-primary items-center justify-center gap-6 to-slate-900 border-slate-900 border rounded-[48px] px-6 py-4`}
           >
             <img src={linear} alt="linear" className="w-[350px] mx-auto" />
+            <div className="">
+
             <h2 className="text-white relative font-bold text-center text-3xl mb-2">
               Designed for modern software teams
             </h2>
             <p className="text-[20px] leading-tight text-center text-slate-400 break-words max-w-sm mx-auto mb-8">
               Comes with built-in workflows that create focus and routine.
             </p>
+            </div>
           </div>
           {/* Input Contain */}
           <div
@@ -86,7 +109,6 @@ const Features = () => {
           </div>
          
         </div>
-      </div>
     </section>
   );
 };

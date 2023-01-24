@@ -117,6 +117,9 @@
   margin-right: 0px;
 }
 
+*{
+  /* outline: solid red 1px */
+}
 .feedback-card {
   background: transparent;
 }
