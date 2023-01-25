@@ -22,11 +22,11 @@ const Features = () => {
       </div>
       {/* Feature Content */}
 
-        <div className="feature1 grid grid-cols-1 max-h-[1000px] h-fit max-w-6xl md:grid-cols-3 md:grid-rows-2 gap-5 rounded-[14px] p-6 my-2">
+        <div className="feature1 grid grid-cols-1 h-fit max-w-6xl md:grid-cols-3 md:grid-rows-2 gap-5 rounded-[14px] p-6 my-2">
 
           {/* Keyboard Contain*/}
           <div
-            className={`h-full md:col-span-2 flex flex-col items-center justify-center gap-6  w-full  bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[48px] px-6`}
+            className={`h-full md:col-span-2 flex flex-col items-center justify-center gap-6  w-full  bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[48px] px-6 py-6`}
           >
 
                 {/* Image with fade */}

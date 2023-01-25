@@ -62,11 +62,11 @@ const Tracking = () => {
         </div>
       </section>
       {/* Board and list Section */}
-      <section className="board-list-content lg:flex sm:block gap-6 max-w-screen-lg h-fit">
+      <section className="board-list-content lg:flex sm:block gap-5 max-w-6xl">
         {/* Board */}
-        <div className="board-list lg:w-2/3 sm:w-3/4 mx-auto mt-3">
+        <div className="board-list lg:w-2/3 sm:max-w-6xl mx-auto mt-3">
         <div
-            className={`bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[20px] px-10 py-10`}
+            className={`bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[48px] px-6 py-6`}
           >
             <div className="flex flex-col text-start">
               <h2 className="text-white font-bold relative text-start text-3xl w-fit">
@@ -83,9 +83,9 @@ const Tracking = () => {
           </div>
         </div>
         {/* Todo List */}
-        <div className="board-list lg:w-2/3 sm:w-3/4 mx-auto mt-3">
+        <div className="board-list lg:w-2/3 sm:max-w-6xl mx-auto mt-3">
           <div
-              className={`bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[20px] px-10 py-10`}
+              className={`bg-gradient-to-b from-primary to-slate-900 border-slate-900 border rounded-[48px] px-6 py-6`}
             >
               <div className="flex flex-col text-start">
                 <h2 className="text-white font-bold relative text-start text-3xl w-fit">
